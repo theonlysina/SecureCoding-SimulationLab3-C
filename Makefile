@@ -1,1 +1,2 @@
-gcc -o main main.c
+all:
+	gcc -o main lab3-exercise2-C.c
