@@ -1,1 +1,1 @@
-gcc -o main C-code.c
+gcc -o c-code c-code.c
