@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-// Example array and index
-int array[] = {10, 20, 30, 40};
-int len = sizeof(array) / sizeof(array[0]);
-int index = 2;
-
 int getValueFromArray(int *array, int len, int index) {
     // Check if the index is within the bounds of the array
     if (index >= 0 && index < len) {
